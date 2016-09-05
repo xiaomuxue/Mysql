@@ -3,6 +3,7 @@
  */
 var mysql=require("mysql");   //导入mysql模块
 
+
 //创建数据库连接
 var connection=mysql.createConnection({
     host:'127.0.0.1',
