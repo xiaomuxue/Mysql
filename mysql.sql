@@ -36,6 +36,12 @@ insert into classInfo values(0,'YC25',1);
 --添加学生的初始数据
 insert into stuInfo values(0,'纯纯',1001,'女',18,'aaaa','15074717797');
 
+--在cmd里面停止数据库
+net stop mysql
+
+--在cmd里面启动数据库
+net start mysql
+
 
 
 
